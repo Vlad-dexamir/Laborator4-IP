@@ -1,0 +1,2485 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<uml version="6">
+  <argo version="6">
+    <documentation>
+      <authorname></authorname>
+      <authoremail></authoremail>
+      <version>0.34</version>
+      <description>
+        
+      </description>
+    </documentation>
+    <settings>
+      <notationlanguage>UML 1.4</notationlanguage>
+      <showboldnames>false</showboldnames>
+      <useguillemots>false</useguillemots>
+      <showassociationnames>true</showassociationnames>
+      <showvisibility>false</showvisibility>
+      <showmultiplicity>false</showmultiplicity>
+      <showinitialvalue>false</showinitialvalue>
+      <showproperties>false</showproperties>
+      <showtypes>true</showtypes>
+      <showstereotypes>false</showstereotypes>
+      <showsingularmultiplicities>true</showsingularmultiplicities>
+      <defaultshadowwidth>1</defaultshadowwidth>
+      <hidebidirectionalarrows>true</hidebidirectionalarrows>    
+      <fontname>Dialog</fontname>
+      <fontsize>12</fontsize>
+      <defaultstereotypeview>0</defaultstereotypeview>
+      <activediagram>untitledModel_com_company_classes</activediagram>
+    </settings>
+    <searchpath href="PROJECT_DIR" />
+    <members>
+      <member type="profile"
+              name="Reverse_profile.profile" />
+      <member type="xmi"
+              name="Reverse.xmi" />
+      <member type="pgml"
+              name="Reverse_ClassDiagram.pgml"
+              diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+              diagramname="Class Diagram" />
+      <member type="pgml"
+              name="Reverse_UseCaseDiagram.pgml"
+              diagramclass="org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram"
+              diagramname="Use Case Diagram" />
+      <member type="pgml"
+              name="Reverse_untitledModel_classes.pgml"
+              diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+              diagramname="untitledModel_classes" />
+      <member type="pgml"
+              name="Reverse_untitledModel_com_company_classes.pgml"
+              diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+              diagramname="untitledModel_com_company_classes" />
+      <member type="pgml"
+              name="Reverse_untitledModel_java_classes.pgml"
+              diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+              diagramname="untitledModel_java_classes" />
+      <member type="pgml"
+              name="Reverse_untitledModel_com_classes.pgml"
+              diagramclass="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram"
+              diagramname="untitledModel_com_classes" />
+      <member type="todo"
+              name="Reverse.todo" />
+    </members>
+    <historyfile name="" />
+  </argo>
+<profile>
+		<plugin>
+			UML 1.4
+		</plugin>
+		<plugin>
+			GoodPractices
+		</plugin>
+		<plugin>
+			CodeGeneration
+		</plugin>
+</profile>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Thu Mar 19 21:43:57 EET 2020'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000865'
+      name = 'untitledModel' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+      isAbstract = 'false'>
+      <UML:Namespace.ownedElement>
+        <UML:DataType xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'
+          name = 'void' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:TagDefinition xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000088E'
+          name = 'GeneratedFromImport' isSpecification = 'false'>
+          <UML:TagDefinition.multiplicity>
+            <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000890'>
+              <UML:Multiplicity.range>
+                <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000088F'
+                  lower = '0' upper = '0'/>
+              </UML:Multiplicity.range>
+            </UML:Multiplicity>
+          </UML:TagDefinition.multiplicity>
+        </UML:TagDefinition>
+        <UML:Stereotype xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008C0'
+          name = 'javaImport' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:DataType xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000925'
+          name = 'int' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'/>
+        <UML:Package xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000976'
+          name = 'java' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'>
+          <UML:Namespace.ownedElement>
+            <UML:Package xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000977'
+              name = 'lang' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+              isAbstract = 'false'>
+              <UML:Namespace.ownedElement>
+                <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'
+                  name = 'String' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+                  <UML:ModelElement.taggedValue>
+                    <UML:TaggedValue xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099D'
+                      isSpecification = 'false'>
+                      <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+                      <UML:TaggedValue.type>
+                        <UML:TagDefinition xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000088E'/>
+                      </UML:TaggedValue.type>
+                    </UML:TaggedValue>
+                  </UML:ModelElement.taggedValue>
+                </UML:Class>
+              </UML:Namespace.ownedElement>
+            </UML:Package>
+            <UML:Package xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C8'
+              name = 'util' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+              isAbstract = 'false'>
+              <UML:Namespace.ownedElement>
+                <UML:Interface xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C9'
+                  name = 'List' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false'>
+                  <UML:ModelElement.taggedValue>
+                    <UML:TaggedValue xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CA'
+                      isSpecification = 'false'>
+                      <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+                      <UML:TaggedValue.type>
+                        <UML:TagDefinition xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000088E'/>
+                      </UML:TaggedValue.type>
+                    </UML:TaggedValue>
+                  </UML:ModelElement.taggedValue>
+                </UML:Interface>
+              </UML:Namespace.ownedElement>
+            </UML:Package>
+          </UML:Namespace.ownedElement>
+        </UML:Package>
+        <UML:Package xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000979'
+          name = 'com' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+          isAbstract = 'false'>
+          <UML:Namespace.ownedElement>
+            <UML:Package xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097A'
+              name = 'company' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+              isAbstract = 'false'>
+              <UML:Namespace.ownedElement>
+                <UML:Component xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000978'
+                  name = 'Admin.java' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:Component.residentElement>
+                    <UML:ElementResidence xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097C'>
+                      <UML:ElementResidence.resident>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097B'/>
+                      </UML:ElementResidence.resident>
+                    </UML:ElementResidence>
+                  </UML:Component.residentElement>
+                </UML:Component>
+                <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097B'
+                  name = 'Admin' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+                  <UML:GeneralizableElement.generalization>
+                    <UML:Generalization xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000988'/>
+                  </UML:GeneralizableElement.generalization>
+                  <UML:Classifier.feature>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000989'
+                      name = 'Admin' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:ModelElement.stereotype>
+                        <UML:Stereotype href = 'http://argouml.org/profiles/uml14/default-uml14.xmi#.:000000000000082B'/>
+                      </UML:ModelElement.stereotype>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000098B'
+                      name = 'Admin' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000098C'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000989'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000098D'
+                      name = 'CreateUser' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000098F'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000990'
+                          name = 'user1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000991'
+                      name = 'CreateUser' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000992'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000098D'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000993'
+                      name = 'deleteUser' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000995'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000996'
+                          name = 'user1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000997'
+                      name = 'deleteUser' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000998'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000993'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000999'
+                      name = 'deleteMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099B'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099E'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099F'
+                      name = 'deleteMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A0'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000999'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A1'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A3'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A4'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A5'
+                          name = 's1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A6'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A7'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A1'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A8'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009AA'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009AB'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009AC'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009AD'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A8'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009AE'
+                      name = 'lastName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009B1'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009B2'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009B3'
+                      name = 'firstName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009B6'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009B7'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009B8'
+                      name = 'id' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009BB'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009BC'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009BD'
+                      name = 'username' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C0'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C1'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C2'
+                      name = 'password' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C5'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C6'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                  </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Component xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097D'
+                  name = 'Professor.java' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:ModelElement.clientDependency>
+                    <UML:Dependency xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CB'/>
+                  </UML:ModelElement.clientDependency>
+                  <UML:Namespace.ownedElement>
+                    <UML:Dependency xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CB'
+                      name = 'Professor.java -&gt; List' isSpecification = 'false'>
+                      <UML:ModelElement.stereotype>
+                        <UML:Stereotype xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008C0'/>
+                      </UML:ModelElement.stereotype>
+                      <UML:Dependency.client>
+                        <UML:Component xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097D'/>
+                      </UML:Dependency.client>
+                      <UML:Dependency.supplier>
+                        <UML:Interface xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C9'/>
+                      </UML:Dependency.supplier>
+                    </UML:Dependency>
+                  </UML:Namespace.ownedElement>
+                  <UML:Component.residentElement>
+                    <UML:ElementResidence xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097F'>
+                      <UML:ElementResidence.resident>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E'/>
+                      </UML:ElementResidence.resident>
+                    </UML:ElementResidence>
+                  </UML:Component.residentElement>
+                </UML:Component>
+                <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E'
+                  name = 'Professor' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+                  <UML:GeneralizableElement.generalization>
+                    <UML:Generalization xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CD'/>
+                  </UML:GeneralizableElement.generalization>
+                  <UML:Classifier.feature>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CE'
+                      name = 'Professor' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:ModelElement.stereotype>
+                        <UML:Stereotype href = 'http://argouml.org/profiles/uml14/default-uml14.xmi#.:000000000000082B'/>
+                      </UML:ModelElement.stereotype>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D0'
+                      name = 'Professor' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D1'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CE'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D2'
+                      name = 'addStudentToLicenseList' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                      isLeaf = 'false' isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D4'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D5'
+                          name = 'student1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D6'
+                      name = 'addStudentToLicenseList' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D7'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D2'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D8'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009DA'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009DB'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009DC'
+                          name = 's1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009DD'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009DE'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D8'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009DF'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E1'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E2'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E3'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E4'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009DF'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E5'
+                      name = 'subjects' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E8'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E9'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Interface xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C9'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009EA'
+                      name = 'firstName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009ED'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009EE'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009EF'
+                      name = 'lastName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009F2'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009F3'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009F4'
+                      name = 'id' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009F7'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009F8'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009F9'
+                      name = 'username' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009FC'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009FD'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009FE'
+                      name = 'password' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A01'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A02'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                  </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Component xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000980'
+                  name = 'Student.java' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:ModelElement.clientDependency>
+                    <UML:Dependency xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A04'/>
+                  </UML:ModelElement.clientDependency>
+                  <UML:Namespace.ownedElement>
+                    <UML:Dependency xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A04'
+                      name = 'Student.java -&gt; List' isSpecification = 'false'>
+                      <UML:ModelElement.stereotype>
+                        <UML:Stereotype xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008C0'/>
+                      </UML:ModelElement.stereotype>
+                      <UML:Dependency.client>
+                        <UML:Component xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000980'/>
+                      </UML:Dependency.client>
+                      <UML:Dependency.supplier>
+                        <UML:Interface xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C9'/>
+                      </UML:Dependency.supplier>
+                    </UML:Dependency>
+                  </UML:Namespace.ownedElement>
+                  <UML:Component.residentElement>
+                    <UML:ElementResidence xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000982'>
+                      <UML:ElementResidence.resident>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981'/>
+                      </UML:ElementResidence.resident>
+                    </UML:ElementResidence>
+                  </UML:Component.residentElement>
+                </UML:Component>
+                <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981'
+                  name = 'Student' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'false' isActive = 'false'>
+                  <UML:GeneralizableElement.generalization>
+                    <UML:Generalization xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A06'/>
+                  </UML:GeneralizableElement.generalization>
+                  <UML:Classifier.feature>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A07'
+                      name = 'Student' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:ModelElement.stereotype>
+                        <UML:Stereotype href = 'http://argouml.org/profiles/uml14/default-uml14.xmi#.:000000000000082B'/>
+                      </UML:ModelElement.stereotype>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A09'
+                      name = 'Student' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A0A'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A07'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A0B'
+                      name = 'searchProfessorByName' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                      isLeaf = 'false' isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A0D'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A0E'
+                          name = 'nameProfessor' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A0F'
+                      name = 'searchProfessorByName' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A10'
+                          language = 'Java' body = '&#13;&#10;        return null;&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A0B'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A11'
+                      name = 'searchProfessorBySubject' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                      isLeaf = 'false' isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A13'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A14'
+                          name = 'nameSubject' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A15'
+                      name = 'searchProfessorBySubject' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A16'
+                          language = 'Java' body = '&#13;&#10;        return null;&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A11'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A17'
+                      name = 'requestProfessor' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                      isLeaf = 'false' isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A19'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A1A'
+                          name = 'professor1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A1B'
+                      name = 'requestProfessor' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A1C'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A17'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A1D'
+                      name = 'filterMessages' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false' concurrency = 'sequential' isRoot = 'false'
+                      isLeaf = 'false' isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A1F'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A20'
+                          name = 'list' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Interface xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C9'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A21'
+                      name = 'filterMessages' visibility = 'public' isSpecification = 'false'
+                      ownerScope = 'instance' isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A22'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A1D'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A23'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A25'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A26'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A27'
+                          name = 's1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A28'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A29'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A23'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A2A'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A2C'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A2D'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A2E'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A2F'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A2A'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A30'
+                      name = 'an' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A33'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A34'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000925'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A35'
+                      name = 'grupa' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A38'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A39'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A3A'
+                      name = 'password' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A3D'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A3E'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A3F'
+                      name = 'username' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A42'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A43'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A44'
+                      name = 'id' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A47'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A48'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A49'
+                      name = 'lastName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A4C'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A4D'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A4E'
+                      name = 'firstName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A51'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A52'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                  </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Component xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000983'
+                  name = 'User.java' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+                  isAbstract = 'false'>
+                  <UML:Component.residentElement>
+                    <UML:ElementResidence xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000985'>
+                      <UML:ElementResidence.resident>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984'/>
+                      </UML:ElementResidence.resident>
+                    </UML:ElementResidence>
+                  </UML:Component.residentElement>
+                </UML:Component>
+                <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984'
+                  name = 'User' visibility = 'public' isSpecification = 'false' isRoot = 'false'
+                  isLeaf = 'false' isAbstract = 'true' isActive = 'false'>
+                  <UML:Classifier.feature>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A55'
+                      name = 'User' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:ModelElement.stereotype>
+                        <UML:Stereotype href = 'http://argouml.org/profiles/uml14/default-uml14.xmi#.:000000000000082B'/>
+                      </UML:ModelElement.stereotype>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A57'
+                      name = 'User' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A58'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A55'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A59'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A5B'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A5C'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A5D'
+                          name = 's1' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A5E'
+                      name = 'login' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A5F'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A59'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Operation xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A60'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false' concurrency = 'sequential' isRoot = 'false' isLeaf = 'false'
+                      isAbstract = 'false'>
+                      <UML:BehavioralFeature.parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A62'
+                          name = 'return' isSpecification = 'false' kind = 'return'>
+                          <UML:Parameter.type>
+                            <UML:DataType xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087F'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                        <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A63'
+                          name = 's' isSpecification = 'false' kind = 'in'>
+                          <UML:Parameter.type>
+                            <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                          </UML:Parameter.type>
+                        </UML:Parameter>
+                      </UML:BehavioralFeature.parameter>
+                    </UML:Operation>
+                    <UML:Method xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A64'
+                      name = 'writeMessage' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      isQuery = 'false'>
+                      <UML:Method.body>
+                        <UML:ProcedureExpression xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A65'
+                          language = 'Java' body = '&#10;'/>
+                      </UML:Method.body>
+                      <UML:Method.specification>
+                        <UML:Operation xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A60'/>
+                      </UML:Method.specification>
+                    </UML:Method>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A66'
+                      name = 'firstName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A69'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A6A'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A6B'
+                      name = 'lastName' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A6E'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A6F'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A70'
+                      name = 'id' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A73'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A74'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A75'
+                      name = 'username' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A78'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A79'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                    <UML:Attribute xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A7A'
+                      name = 'password' visibility = 'public' isSpecification = 'false' ownerScope = 'instance'
+                      changeability = 'changeable' targetScope = 'instance'>
+                      <UML:StructuralFeature.multiplicity>
+                        <UML:Multiplicity xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A7D'>
+                          <UML:Multiplicity.range>
+                            <UML:MultiplicityRange xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A7E'
+                              lower = '1' upper = '1'/>
+                          </UML:Multiplicity.range>
+                        </UML:Multiplicity>
+                      </UML:StructuralFeature.multiplicity>
+                      <UML:StructuralFeature.type>
+                        <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099C'/>
+                      </UML:StructuralFeature.type>
+                    </UML:Attribute>
+                  </UML:Classifier.feature>
+                </UML:Class>
+                <UML:Generalization xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000988'
+                  isSpecification = 'false'>
+                  <UML:Generalization.child>
+                    <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097B'/>
+                  </UML:Generalization.child>
+                  <UML:Generalization.parent>
+                    <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984'/>
+                  </UML:Generalization.parent>
+                </UML:Generalization>
+                <UML:Generalization xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CD'
+                  isSpecification = 'false'>
+                  <UML:Generalization.child>
+                    <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E'/>
+                  </UML:Generalization.child>
+                  <UML:Generalization.parent>
+                    <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984'/>
+                  </UML:Generalization.parent>
+                </UML:Generalization>
+                <UML:Generalization xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A06'
+                  isSpecification = 'false'>
+                  <UML:Generalization.child>
+                    <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981'/>
+                  </UML:Generalization.child>
+                  <UML:Generalization.parent>
+                    <UML:Class xmi.idref = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984'/>
+                  </UML:Generalization.parent>
+                </UML:Generalization>
+              </UML:Namespace.ownedElement>
+            </UML:Package>
+          </UML:Namespace.ownedElement>
+        </UML:Package>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087A'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000087E'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000885'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000088B'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000896'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000089D'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008C4'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008C8'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008CE'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008D5'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008FD'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000901'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000907'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000090D'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000913'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000919'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000920'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000094C'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000950'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000957'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000098A'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000098E'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000994'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000099A'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A2'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009A9'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CF'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D3'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009D9'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009E0'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A08'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A0C'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A12'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A18'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A1E'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A24'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A2B'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A56'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A5A'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Parameter xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A61'
+      name = 'return' isSpecification = 'false' kind = 'return'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000877'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008C1'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000008FA'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000094A'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000987'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CC'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A05'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+    <UML:Class xmi.id = '-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A54'
+      isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'
+      isActive = 'false'/>
+  </XMI.content>
+</XMI>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000865"
+      name="Class Diagram"
+>
+</pgml>
+<pgml description="org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram|-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000865"
+      name="Use Case Diagram"
+>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000865"
+      name="untitledModel_classes"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigPackage[40, 40, 139, 100]pathVisible=false;stereotypeView=0;stereotypeVisible=true;visibilityVisible=false"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000976"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="40"
+      y="40"
+      width="139"
+      height="100"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig0.1"
+      description="org.argouml.uml.diagram.static_structure.ui.FigPackage$PackageBackground"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    >
+      <moveto x="40"
+              y="40" />
+      <lineto x="129"
+              y="40" />
+      <lineto x="129"
+              y="64" />
+      <lineto x="178"
+              y="64" />
+      <lineto x="178"
+              y="139" />
+      <lineto x="40"
+              y="139" />
+      <lineto x="40"
+              y="40" />
+    </path>
+    <text name="Fig0.2"
+      x="40"
+      y="40"
+      width="90"
+      height="25"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >java</text>
+    <group name="Fig0.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[40, 40, 89, 1]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000976"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.3.0"
+        x="40"
+        y="40"
+        width="89"
+        height="1"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig0.4"
+      x="40"
+      y="64"
+      width="139"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    ></text>
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigPackage[259, 40, 139, 100]pathVisible=false;stereotypeView=0;stereotypeVisible=true;visibilityVisible=false"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000979"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="259"
+      y="40"
+      width="139"
+      height="100"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig1.1"
+      description="org.argouml.uml.diagram.static_structure.ui.FigPackage$PackageBackground"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    >
+      <moveto x="259"
+              y="40" />
+      <lineto x="348"
+              y="40" />
+      <lineto x="348"
+              y="64" />
+      <lineto x="397"
+              y="64" />
+      <lineto x="397"
+              y="139" />
+      <lineto x="259"
+              y="139" />
+      <lineto x="259"
+              y="40" />
+    </path>
+    <text name="Fig1.2"
+      x="259"
+      y="40"
+      width="90"
+      height="25"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >com</text>
+    <group name="Fig1.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[259, 40, 89, 1]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000979"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.3.0"
+        x="259"
+        y="40"
+        width="89"
+        height="1"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig1.4"
+      x="259"
+      y="64"
+      width="139"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    ></text>
+  </group>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097A"
+      name="untitledModel_com_company_classes"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[332, 145, 66, 25]pathVisible=false;stereotypeView=0;operationsVisible=false;attributesVisible=false;"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="332"
+      y="145"
+      width="66"
+      height="25"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <text name="Fig0.1"
+      x="333"
+      y="146"
+      width="64"
+      height="23"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    >Student</text>
+    <group name="Fig0.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[333, 146, 64, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.2.0"
+        x="333"
+        y="146"
+        width="64"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <rectangle name="Fig0.3"
+      x="332"
+      y="169"
+      width="106"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig0.4"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[332, 145, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.4.0"
+        x="333"
+        y="170"
+        width="104"
+        height="127"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+    <rectangle name="Fig0.5"
+      x="332"
+      y="296"
+      width="345"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig0.6"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[332, 145, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000981"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.6.0"
+        x="333"
+        y="297"
+        width="343"
+        height="127"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[186, 40, 66, 25]pathVisible=false;stereotypeView=0;operationsVisible=false;attributesVisible=false;"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="186"
+      y="40"
+      width="66"
+      height="25"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <text name="Fig1.1"
+      x="187"
+      y="41"
+      width="64"
+      height="23"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="true"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    >User</text>
+    <group name="Fig1.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[187, 41, 64, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.2.0"
+        x="187"
+        y="41"
+        width="64"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <rectangle name="Fig1.3"
+      x="186"
+      y="64"
+      width="106"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig1.4"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[186, 40, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.4.0"
+        x="187"
+        y="65"
+        width="104"
+        height="93"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+    <rectangle name="Fig1.5"
+      x="186"
+      y="157"
+      width="180"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig1.6"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[186, 40, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000984"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.6.0"
+        x="187"
+        y="158"
+        width="178"
+        height="59"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+  </group>
+  <group name="Fig2"
+       description="org.argouml.uml.diagram.ui.FigGeneralization"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A06"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig0"
+      destPortFig="Fig1"
+      sourceFigNode="Fig0"
+      destFigNode="Fig1"
+      <argouml:pathitem figname="Fig2.1"
+                        classname="org.argouml.uml.diagram.ui.PathItemPlacement"
+                        figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
+                        ownerhref="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000A06"
+                        angle="270.0"
+                        offset="-10" />
+    </private>
+    <path name="Fig2.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="363"
+              y="145" />
+      <lineto x="363"
+              y="117" />
+      <lineto x="217"
+              y="117" />
+      <lineto x="217"
+              y="65" />
+    </path>
+  </group>
+  <group name="Fig3"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[186, 145, 94, 31]pathVisible=false;stereotypeView=0;operationsVisible=false;attributesVisible=false;"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig3.0"
+      x="186"
+      y="145"
+      width="94"
+      height="31"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <text name="Fig3.1"
+      x="187"
+      y="146"
+      width="92"
+      height="23"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    >Professor</text>
+    <group name="Fig3.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[187, 146, 64, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.2.0"
+        x="187"
+        y="146"
+        width="64"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <rectangle name="Fig3.3"
+      x="186"
+      y="169"
+      width="106"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig3.4"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[186, 145, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.4.0"
+        x="187"
+        y="170"
+        width="104"
+        height="110"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+    <rectangle name="Fig3.5"
+      x="186"
+      y="279"
+      width="287"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig3.6"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[186, 145, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097E"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig3.6.0"
+        x="187"
+        y="280"
+        width="285"
+        height="76"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+  </group>
+  <group name="Fig4"
+       description="org.argouml.uml.diagram.ui.FigGeneralization"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CD"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig3"
+      destPortFig="Fig1"
+      sourceFigNode="Fig3"
+      destFigNode="Fig1"
+      <argouml:pathitem figname="Fig4.1"
+                        classname="org.argouml.uml.diagram.ui.PathItemPlacement"
+                        figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
+                        ownerhref="-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009CD"
+                        angle="270.0"
+                        offset="-10" />
+    </private>
+    <path name="Fig4.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="217"
+              y="145" />
+      <lineto x="217"
+              y="64" />
+    </path>
+  </group>
+  <group name="Fig5"
+       description="org.argouml.uml.diagram.static_structure.ui.FigClass[40, 145, 66, 25]pathVisible=false;stereotypeView=0;operationsVisible=false;attributesVisible=false;"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097B"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig5.0"
+      x="40"
+      y="145"
+      width="66"
+      height="25"
+      fill="1"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    />
+    <text name="Fig5.1"
+      x="41"
+      y="146"
+      width="64"
+      height="23"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    >Admin</text>
+    <group name="Fig5.2"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[41, 146, 64, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097B"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig5.2.0"
+        x="41"
+        y="146"
+        width="64"
+        height="0"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <rectangle name="Fig5.3"
+      x="40"
+      y="169"
+      width="106"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig5.4"
+         description="org.argouml.uml.diagram.ui.FigAttributesCompartment[40, 145, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097B"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig5.4.0"
+        x="41"
+        y="170"
+        width="104"
+        height="93"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+    <rectangle name="Fig5.5"
+      x="40"
+      y="262"
+      width="180"
+      height="1"
+      fill="1"
+      fillcolor="black"
+      stroke="1"
+      strokecolor="black"
+      visibility="0"
+    />
+    <group name="Fig5.6"
+         description="org.argouml.uml.diagram.ui.FigOperationsCompartment[40, 145, 0, 0]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097B"
+         fill="0"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig5.6.0"
+        x="41"
+        y="263"
+        width="178"
+        height="110"
+        fill="0"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+        visibility="0"
+      />
+    </group>
+  </group>
+  <group name="Fig6"
+       description="org.argouml.uml.diagram.ui.FigGeneralization"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000988"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+      sourcePortFig="Fig5"
+      destPortFig="Fig1"
+      sourceFigNode="Fig5"
+      destFigNode="Fig1"
+      <argouml:pathitem figname="Fig6.1"
+                        classname="org.argouml.uml.diagram.ui.PathItemPlacement"
+                        figclassname="org.argouml.uml.diagram.ui.FigTextGroup"
+                        ownerhref="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000988"
+                        angle="270.0"
+                        offset="-10" />
+    </private>
+    <path name="Fig6.0"
+      description="org.tigris.gef.presentation.FigPoly"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+    >
+      <moveto x="71"
+              y="145" />
+      <lineto x="71"
+              y="117" />
+      <lineto x="217"
+              y="117" />
+      <lineto x="217"
+              y="65" />
+    </path>
+  </group>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000976"
+      name="untitledModel_java_classes"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigPackage[259, 40, 139, 100]pathVisible=false;stereotypeView=0;stereotypeVisible=true;visibilityVisible=false"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C8"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="259"
+      y="40"
+      width="139"
+      height="100"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig0.1"
+      description="org.argouml.uml.diagram.static_structure.ui.FigPackage$PackageBackground"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    >
+      <moveto x="259"
+              y="40" />
+      <lineto x="348"
+              y="40" />
+      <lineto x="348"
+              y="64" />
+      <lineto x="397"
+              y="64" />
+      <lineto x="397"
+              y="139" />
+      <lineto x="259"
+              y="139" />
+      <lineto x="259"
+              y="40" />
+    </path>
+    <text name="Fig0.2"
+      x="259"
+      y="40"
+      width="90"
+      height="25"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >util</text>
+    <group name="Fig0.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[259, 40, 89, 1]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:00000000000009C8"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.3.0"
+        x="259"
+        y="40"
+        width="89"
+        height="1"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig0.4"
+      x="259"
+      y="64"
+      width="139"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    ></text>
+  </group>
+  <group name="Fig1"
+       description="org.argouml.uml.diagram.static_structure.ui.FigPackage[40, 40, 139, 100]pathVisible=false;stereotypeView=0;stereotypeVisible=true;visibilityVisible=false"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000977"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig1.0"
+      x="40"
+      y="40"
+      width="139"
+      height="100"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig1.1"
+      description="org.argouml.uml.diagram.static_structure.ui.FigPackage$PackageBackground"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    >
+      <moveto x="40"
+              y="40" />
+      <lineto x="129"
+              y="40" />
+      <lineto x="129"
+              y="64" />
+      <lineto x="178"
+              y="64" />
+      <lineto x="178"
+              y="139" />
+      <lineto x="40"
+              y="139" />
+      <lineto x="40"
+              y="40" />
+    </path>
+    <text name="Fig1.2"
+      x="40"
+      y="40"
+      width="90"
+      height="25"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >lang</text>
+    <group name="Fig1.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[40, 40, 89, 1]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000977"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig1.3.0"
+        x="40"
+        y="40"
+        width="89"
+        height="1"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig1.4"
+      x="40"
+      y="64"
+      width="139"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    ></text>
+  </group>
+</pgml>
+<pgml description="org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram|-64--88-0-102--37e47f6d:170f44a48d4:-8000:0000000000000979"
+      name="untitledModel_com_classes"
+>
+  <group name="Fig0"
+       description="org.argouml.uml.diagram.static_structure.ui.FigPackage[40, 40, 139, 100]pathVisible=false;stereotypeView=0;stereotypeVisible=true;visibilityVisible=false"
+       href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097A"
+       fill="1"
+       fillcolor="white"
+       stroke="1"
+       strokecolor="black"
+  >
+    <private>
+    </private>
+    
+    <rectangle name="Fig0.0"
+      x="40"
+      y="40"
+      width="139"
+      height="100"
+      fill="0"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    />
+    <path name="Fig0.1"
+      description="org.argouml.uml.diagram.static_structure.ui.FigPackage$PackageBackground"
+      fill="1"
+      fillcolor="white"
+      stroke="0"
+      strokecolor="black"
+    >
+      <moveto x="40"
+              y="40" />
+      <lineto x="129"
+              y="40" />
+      <lineto x="129"
+              y="64" />
+      <lineto x="178"
+              y="64" />
+      <lineto x="178"
+              y="139" />
+      <lineto x="40"
+              y="139" />
+      <lineto x="40"
+              y="40" />
+    </path>
+    <text name="Fig0.2"
+      x="40"
+      y="40"
+      width="90"
+      height="25"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Left"
+    >company</text>
+    <group name="Fig0.3"
+         description="org.argouml.uml.diagram.ui.FigStereotypesGroup[40, 40, 89, 1]"
+         href="-64--88-0-102--37e47f6d:170f44a48d4:-8000:000000000000097A"
+         fill="1"
+         fillcolor="white"
+         stroke="0"
+         strokecolor="black"
+         visibility="0"
+    >
+      <private>
+      </private>
+      
+      <rectangle name="Fig0.3.0"
+        x="40"
+        y="40"
+        width="89"
+        height="1"
+        fill="1"
+        fillcolor="white"
+        stroke="0"
+        strokecolor="black"
+      />
+    </group>
+    <text name="Fig0.4"
+      x="40"
+      y="64"
+      width="139"
+      height="76"
+      fill="0"
+      fillcolor="white"
+      stroke="1"
+      strokecolor="black"
+      textcolor="black"
+      font="Dialog"
+      italic="false"
+      bold="false"
+      textsize="12"
+      justification="Center"
+    ></text>
+  </group>
+</pgml>
+<todo>
+<todolist>
+</todolist>
+<resolvedcritics>
+</resolvedcritics>
+</todo>
+</uml>
